@@ -1,12 +1,17 @@
 {
   "name": "haxball-server",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Servidor para Haxball",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "haxball": "1.0.0"
-  }
+    "haxball": "github:~haxball/haxball" // Esto se debe verificar
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT"
 }
+
